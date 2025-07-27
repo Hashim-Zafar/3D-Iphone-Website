@@ -1,10 +1,14 @@
-import React from "react";
-
+import React, { useEffect, useRef, useState } from "react";
+import Nav from "./components/Navbar";
+import Hero from "./components/Hero";
+import Highlights from "./components/Highlights";
 function App() {
   return (
-    <div>
-      <h1 className="check">Hellow world</h1>
-    </div>
+    <main>
+      <Nav />
+      <Hero />
+      <Highlights />
+    </main>
   );
 }
 

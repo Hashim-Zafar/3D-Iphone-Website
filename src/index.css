@@ -9,31 +9,33 @@
   --color-zinc: #101010;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
-body {
-  color: white;
-  width: 100dvw;
-  overflow: hidden;
-  height: 100%;
-  background: #000;
-  border-color: #3b3b3b;
-  user-select: none;
-}
+  body {
+    color: white;
+    width: 100dvw;
+    overflow-x: hidden;
+    height: 100%;
+    background: #000;
+    border-color: #3b3b3b;
+    user-select: none;
+  }
 
-canvas {
-  touch-action: none;
-}
+  canvas {
+    touch-action: none;
+  }
 
-.scrim-max-width {
-  margin-inline-start: auto;
-  margin-inline-end: auto;
-  position: relative;
-  max-width: 1120px;
+  .screen-max-width {
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    position: relative;
+    max-width: 1120px;
+  }
 }
 
 @layer utilities {
