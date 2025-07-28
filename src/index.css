@@ -52,11 +52,11 @@
   }
 
   .color-container {
-    @apply flex items-center justify-center rounded-full px-4 py-4  bg-gray-300 backdrop-blur;
+    @apply flex items-center justify-center rounded-full px-4 py-4  bg-grey-300 backdrop-blur;
   }
 
   .size-btn-container {
-    @apply flex items-center justify-center p-1 rounded-full bg-gray-300 backdrop-blur
+    @apply flex items-center justify-center p-1 rounded-full bg-grey-300 backdrop-blur
     gap-1 ml-3;
   }
 
